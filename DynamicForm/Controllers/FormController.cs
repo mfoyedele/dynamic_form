@@ -8,7 +8,6 @@ namespace ApplicationFormAPI.Controllers
     [Route("api/questions")]
     [ApiController]
     public class FormController : ControllerBase
-    {
-        
+    {        
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DynamicForm.Entities
 {
-    public class Forms
+    public class FormData
     {
         [Required]
         public string? FirstName { get; set; }
@@ -14,14 +14,14 @@ namespace DynamicForm.Entities
         [Required]
         public string? Email { get; set; }
         [Required]
-        public int PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
         [Required]
         public string? Nationality { get; set; }
         [Required]
         public int IdNumber { get; set; }
         [Required]
-        [DataType(DataType.Date)]
-        public DateTime DateOfBirth { get; set; }
+        
+        public string? DateOfBirth { get; set; }
         [Required]
         public string? Gender { get; set; }
         [Required]

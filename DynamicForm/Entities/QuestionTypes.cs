@@ -9,7 +9,7 @@
 
         public class YesNoQuestion : Question
         {
-            public YesNoQuestion(string text) : base(text) { }
+            public YesNoQuestion(string text) : base("yesno", text) { }
         }
 
         public class DropdownQuestion : Question
@@ -26,7 +26,7 @@
         {
             public List<string> Options { get; set; }
 
-            public MultipleChoiceQuestion(string text, List<string> options) : base(text)
+            public MultipleChoiceQuestion(string text, List<string> options) : base("multiplechoice", text)
             {
                 Options = options;
             }
@@ -34,12 +34,12 @@
 
         public class DateQuestion : Question
         {
-            public DateQuestion(string text) : base(text) { }
+            public DateQuestion(string text) : base("date", text) { }
         }
 
         public class NumberQuestion : Question
         {
-            public NumberQuestion(string text) : base(text) { }
+            public NumberQuestion(string text) : base("number", text) { }
         }
     }
 }

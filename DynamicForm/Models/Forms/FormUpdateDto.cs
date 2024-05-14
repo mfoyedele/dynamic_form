@@ -13,14 +13,13 @@ namespace DynamicForm.Models.Forms
         [Required]
         public string? Email { get; set; }
         [Required]
-        public int PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
         [Required]
         public string? Nationality { get; set; }
         [Required]
         public int IdNumber { get; set; }
-        [Required]
-        [DataType(DataType.Date)]
-        public DateTime DateOfBirth { get; set; }
+        [Required]        
+        public string? DateOfBirth { get; set; }
         [Required]
         public string? Gender { get; set; }
         [Required]

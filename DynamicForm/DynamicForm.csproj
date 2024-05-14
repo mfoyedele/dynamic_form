@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\Forms\" />
     <Folder Include="Repositories\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
